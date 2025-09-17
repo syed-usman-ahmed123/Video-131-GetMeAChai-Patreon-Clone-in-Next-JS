@@ -15,25 +15,32 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-white h-1 opacity-10"></div>
-      <div className="text-white container mx-auto">
-        <h1 className="text-2xl font-bold text-center my-14 ">Your fans can buy you a Chai</h1>
+      <div className="text-white container mx-auto pb-32 pt-14">
+        <h2 className="text-3xl font-bold text-center my-14 ">Your fans can buy you a Chai</h2>
         <div className="flex gap-5 justify-around ">
-          <div className="item space-y-3 ">
+          <div className="item space-y-3 flex flex-col justify-center items-center">
             <img className=" rounded-full  text-black object-cover w-24 h-24  " src="/man1.gif" alt="" />
-            <p className="font-bold ">Fund Yourself</p>
+            <p className="font-bold ">Fans want to help</p>
+            <p>You fans are available for you to help you</p>
 
           </div>
-            <div className="item space-y-3">
+          <div className="item space-y-3 flex flex-col justify-center items-center">
             <img className=" rounded-full  text-black  " width={88} src="/coin.gif" alt="" />
-            <p className="font-bold ">Fund Yourself</p>
+            <p className="font-bold ">Fans want to help</p>
+            <p>You fans are available for you to help you</p>
 
           </div>
-            <div className="item space-y-3">
+          <div className="item space-y-3 flex flex-col justify-center items-center">
             <img className=" rounded-full  text-black  " width={88} src="/groupd.gif" alt="" />
-            <p className="font-bold ">Fund Yourself</p>
-
+            <p className="font-bold ">Fans want to help</p>
+            <p>You fans are available for you to help you</p>
           </div>
         </div>
+      </div>
+      <div className="bg-white h-1 opacity-10"></div>
+      <div className="text-white container mx-auto pb-32 pt-14 flex flex-col items-center justify-center">
+        <h2 className="text-3xl font-bold text-center mb-14 ">Learn more about us</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/QtaorVNAwbI?si=mLdqiJQmP-1tVYxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </>
   );
